@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "name": "cuneo door",
+    "file": "samples/cuneo-door-sample.wav",
+    "bpm": "80",
+    "loop": "3m",
+    "grain": "0.5",
+    "overlap": "0.05"
+  },
+  {
+    "name": "cuneo click",
+    "file": "samples/cuneo-click-sample.wav",
+    "bpm": "100",
+    "loop": "1m",
+    "grain": "0.06",
+    "overlap": 0.01
+  },
+  {
+    "name": "cuneo chatter",
+    "file": "samples/cuneo-chatter-sample.WAV",
+    "bpm": "90",
+    "loop": "9m",
+    "grain": "0.07",
+    "overlap": 0.01
+  }
+]
