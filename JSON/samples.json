@@ -22,5 +22,13 @@
     "loop": "9m",
     "grain": "0.07",
     "overlap": 0.01
-  }
+  },
+  {
+  "name": "Meatloaf",
+  "file": "samples/did-somebody-say-meatloaf.wav",
+  "bpm": "100",
+  "loop": "1m",
+  "grain": 0.04,
+  "overlap": 0.01
+ }
 ]
