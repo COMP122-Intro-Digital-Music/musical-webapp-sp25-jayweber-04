@@ -1,1 +1,73 @@
-[]
+[
+  {
+    "name": "potato",
+    "type": "Synth",
+    "settings": {
+      "volume": -12.999999999999998,
+      "detune": -1000,
+      "portamento": "0.6",
+      "envelope": {
+        "attack": "0.005",
+        "attackCurve": "step",
+        "decay": "0.1",
+        "decayCurve": "linear",
+        "release": "1",
+        "releaseCurve": "step",
+        "sustain": "0.3"
+      },
+      "oscillator": {
+        "partialCount": 10,
+        "partials": [
+          1.2732395447351628,
+          0,
+          0.4244131815783876,
+          0,
+          0.25464790894703254,
+          0,
+          0.18189136353359467,
+          0,
+          0.1414710605261292,
+          0
+        ],
+        "phase": 159,
+        "type": "fmsquare10",
+        "harmonicity": 1,
+        "modulationIndex": 2,
+        "modulationType": "triangle"
+      }
+    }
+  },
+  {
+    "name": "bounce man",
+    "type": "Synth",
+    "settings": {
+      "volume": -18.999999999999996,
+      "detune": -400,
+      "portamento": "0.2",
+      "envelope": {
+        "attack": "0.005",
+        "attackCurve": "bounce",
+        "decay": "0.1",
+        "decayCurve": "exponential",
+        "release": "1",
+        "releaseCurve": "bounce",
+        "sustain": "0.3"
+      },
+      "oscillator": {
+        "partialCount": 5,
+        "partials": [
+          0.6366197723675814,
+          -0.3183098861837907,
+          0.2122065907891938,
+          -0.15915494309189535,
+          0.12732395447351627
+        ],
+        "phase": 0,
+        "type": "fmsawtooth5",
+        "harmonicity": 2,
+        "modulationIndex": 4,
+        "modulationType": "square"
+      }
+    }
+  }
+]
